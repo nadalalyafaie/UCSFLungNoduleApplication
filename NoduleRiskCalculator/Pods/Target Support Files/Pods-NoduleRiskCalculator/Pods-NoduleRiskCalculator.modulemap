@@ -1,0 +1,6 @@
+framework module Pods_NoduleRiskCalculator {
+  umbrella header "Pods-NoduleRiskCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

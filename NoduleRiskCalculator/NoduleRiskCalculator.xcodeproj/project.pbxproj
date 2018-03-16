@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576E8E1C1C6D67FE000E2D00 /* DoctorInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E8E1B1C6D67FE000E2D00 /* DoctorInformationController.swift */; };
+		5794F84A1C67087C00BCDBF1 /* PatientIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F8491C67087C00BCDBF1 /* PatientIDViewController.swift */; };
+		5799471E1C6079B800DCD367 /* BlurViewEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799471D1C6079B800DCD367 /* BlurViewEffect.swift */; };
+		579947201C607A1500DCD367 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799471F1C607A1500DCD367 /* ProgressView.swift */; };
+		579947221C607B1A00DCD367 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579947211C607B1A00DCD367 /* ResultView.swift */; };
+		579947241C607B4A00DCD367 /* UIAutoLayoutExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579947231C607B4A00DCD367 /* UIAutoLayoutExtendable.swift */; };
+		7DD1DF491C5F72F100307279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1DF481C5F72F100307279 /* AppDelegate.swift */; };
+		7DD1DF4B1C5F72F100307279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1DF4A1C5F72F100307279 /* ViewController.swift */; };
+		7DD1DF4E1C5F72F100307279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD1DF4C1C5F72F100307279 /* Main.storyboard */; };
+		7DD1DF501C5F72F100307279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD1DF4F1C5F72F100307279 /* Assets.xcassets */; };
+		7DD1DF531C5F72F100307279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD1DF511C5F72F100307279 /* LaunchScreen.storyboard */; };
+		7DD1DF5B1C5F75AC00307279 /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1DF5A1C5F75AC00307279 /* GlobalValues.swift */; };
+		7DD1DF5D1C5F77BC00307279 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1DF5C1C5F77BC00307279 /* QuestionCell.swift */; };
+		7DD1DF5F1C5F7D4500307279 /* OptionSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1DF5E1C5F7D4500307279 /* OptionSelection.swift */; };
+		7DD1DF611C60168600307279 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1DF601C60168600307279 /* OptionView.swift */; };
+		E6A0871D2F84AA3700CE3FD9 /* Pods_NoduleRiskCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E1BB6358AE53DF393244E7 /* Pods_NoduleRiskCalculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		576E8E1B1C6D67FE000E2D00 /* DoctorInformationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorInformationController.swift; sourceTree = "<group>"; };
+		5794F8491C67087C00BCDBF1 /* PatientIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientIDViewController.swift; sourceTree = "<group>"; };
+		5799471D1C6079B800DCD367 /* BlurViewEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurViewEffect.swift; sourceTree = "<group>"; };
+		5799471F1C607A1500DCD367 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		579947211C607B1A00DCD367 /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		579947231C607B4A00DCD367 /* UIAutoLayoutExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAutoLayoutExtendable.swift; sourceTree = "<group>"; };
+		7DD1DF451C5F72F100307279 /* NoduleRiskCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoduleRiskCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD1DF481C5F72F100307279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DD1DF4A1C5F72F100307279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DD1DF4D1C5F72F100307279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DD1DF4F1C5F72F100307279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DD1DF521C5F72F100307279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DD1DF541C5F72F100307279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD1DF5A1C5F75AC00307279 /* GlobalValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
+		7DD1DF5C1C5F77BC00307279 /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		7DD1DF5E1C5F7D4500307279 /* OptionSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionSelection.swift; sourceTree = "<group>"; };
+		7DD1DF601C60168600307279 /* OptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		E3E1BB6358AE53DF393244E7 /* Pods_NoduleRiskCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoduleRiskCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE212000CB2E28946DCB8523 /* Pods-NoduleRiskCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoduleRiskCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoduleRiskCalculator/Pods-NoduleRiskCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		F63047AD4CA0D019FDD1456E /* Pods-NoduleRiskCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoduleRiskCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoduleRiskCalculator/Pods-NoduleRiskCalculator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DD1DF421C5F72F100307279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A0871D2F84AA3700CE3FD9 /* Pods_NoduleRiskCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6723D1A36FF32077CDB1E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE212000CB2E28946DCB8523 /* Pods-NoduleRiskCalculator.debug.xcconfig */,
+				F63047AD4CA0D019FDD1456E /* Pods-NoduleRiskCalculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5799471C1C60799F00DCD367 /* Result Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5799471D1C6079B800DCD367 /* BlurViewEffect.swift */,
+				5799471F1C607A1500DCD367 /* ProgressView.swift */,
+				579947211C607B1A00DCD367 /* ResultView.swift */,
+			);
+			name = "Result Screen";
+			sourceTree = "<group>";
+		};
+		7DD1DF3C1C5F72F100307279 = {
+			isa = PBXGroup;
+			children = (
+				7DD1DF471C5F72F100307279 /* NoduleRiskCalculator */,
+				7DD1DF461C5F72F100307279 /* Products */,
+				0F6723D1A36FF32077CDB1E2 /* Pods */,
+				E60078AF7B3480349C32A1F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD1DF461C5F72F100307279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1DF451C5F72F100307279 /* NoduleRiskCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD1DF471C5F72F100307279 /* NoduleRiskCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1DF5A1C5F75AC00307279 /* GlobalValues.swift */,
+				7DD1DF481C5F72F100307279 /* AppDelegate.swift */,
+				5794F8491C67087C00BCDBF1 /* PatientIDViewController.swift */,
+				576E8E1B1C6D67FE000E2D00 /* DoctorInformationController.swift */,
+				7DD1DF4A1C5F72F100307279 /* ViewController.swift */,
+				7DD1DF5C1C5F77BC00307279 /* QuestionCell.swift */,
+				579947231C607B4A00DCD367 /* UIAutoLayoutExtendable.swift */,
+				5799471C1C60799F00DCD367 /* Result Screen */,
+				7DD1DF621C6016F800307279 /* Option Selection */,
+				7DD1DF4C1C5F72F100307279 /* Main.storyboard */,
+				7DD1DF4F1C5F72F100307279 /* Assets.xcassets */,
+				7DD1DF511C5F72F100307279 /* LaunchScreen.storyboard */,
+				7DD1DF541C5F72F100307279 /* Info.plist */,
+			);
+			path = NoduleRiskCalculator;
+			sourceTree = "<group>";
+		};
+		7DD1DF621C6016F800307279 /* Option Selection */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1DF5E1C5F7D4500307279 /* OptionSelection.swift */,
+				7DD1DF601C60168600307279 /* OptionView.swift */,
+			);
+			name = "Option Selection";
+			sourceTree = "<group>";
+		};
+		E60078AF7B3480349C32A1F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E1BB6358AE53DF393244E7 /* Pods_NoduleRiskCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DD1DF441C5F72F100307279 /* NoduleRiskCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD1DF571C5F72F100307279 /* Build configuration list for PBXNativeTarget "NoduleRiskCalculator" */;
+			buildPhases = (
+				EE63D040D348D85073252F8D /* Check Pods Manifest.lock */,
+				7DD1DF411C5F72F100307279 /* Sources */,
+				7DD1DF421C5F72F100307279 /* Frameworks */,
+				7DD1DF431C5F72F100307279 /* Resources */,
+				272256B003476410952ECB3E /* Embed Pods Frameworks */,
+				24F5D7008E591ABDE9B3B8C2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoduleRiskCalculator;
+			productName = NoduleRiskCalculator;
+			productReference = 7DD1DF451C5F72F100307279 /* NoduleRiskCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DD1DF3D1C5F72F100307279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "David Williames";
+				TargetAttributes = {
+					7DD1DF441C5F72F100307279 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RHAT84BM7J;
+					};
+				};
+			};
+			buildConfigurationList = 7DD1DF401C5F72F100307279 /* Build configuration list for PBXProject "NoduleRiskCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DD1DF3C1C5F72F100307279;
+			productRefGroup = 7DD1DF461C5F72F100307279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DD1DF441C5F72F100307279 /* NoduleRiskCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DD1DF431C5F72F100307279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD1DF531C5F72F100307279 /* LaunchScreen.storyboard in Resources */,
+				7DD1DF501C5F72F100307279 /* Assets.xcassets in Resources */,
+				7DD1DF4E1C5F72F100307279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F5D7008E591ABDE9B3B8C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoduleRiskCalculator/Pods-NoduleRiskCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		272256B003476410952ECB3E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoduleRiskCalculator/Pods-NoduleRiskCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE63D040D348D85073252F8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DD1DF411C5F72F100307279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD1DF4B1C5F72F100307279 /* ViewController.swift in Sources */,
+				7DD1DF611C60168600307279 /* OptionView.swift in Sources */,
+				579947221C607B1A00DCD367 /* ResultView.swift in Sources */,
+				7DD1DF5F1C5F7D4500307279 /* OptionSelection.swift in Sources */,
+				579947241C607B4A00DCD367 /* UIAutoLayoutExtendable.swift in Sources */,
+				7DD1DF5D1C5F77BC00307279 /* QuestionCell.swift in Sources */,
+				7DD1DF491C5F72F100307279 /* AppDelegate.swift in Sources */,
+				576E8E1C1C6D67FE000E2D00 /* DoctorInformationController.swift in Sources */,
+				579947201C607A1500DCD367 /* ProgressView.swift in Sources */,
+				7DD1DF5B1C5F75AC00307279 /* GlobalValues.swift in Sources */,
+				5794F84A1C67087C00BCDBF1 /* PatientIDViewController.swift in Sources */,
+				5799471E1C6079B800DCD367 /* BlurViewEffect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DD1DF4C1C5F72F100307279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD1DF4D1C5F72F100307279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DD1DF511C5F72F100307279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD1DF521C5F72F100307279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DD1DF551C5F72F100307279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DD1DF561C5F72F100307279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DD1DF581C5F72F100307279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE212000CB2E28946DCB8523 /* Pods-NoduleRiskCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NoduleRiskCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidwilliames.NoduleRiskCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7DD1DF591C5F72F100307279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63047AD4CA0D019FDD1456E /* Pods-NoduleRiskCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NoduleRiskCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidwilliames.NoduleRiskCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DD1DF401C5F72F100307279 /* Build configuration list for PBXProject "NoduleRiskCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD1DF551C5F72F100307279 /* Debug */,
+				7DD1DF561C5F72F100307279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD1DF571C5F72F100307279 /* Build configuration list for PBXNativeTarget "NoduleRiskCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD1DF581C5F72F100307279 /* Debug */,
+				7DD1DF591C5F72F100307279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DD1DF3D1C5F72F100307279 /* Project object */;
+}
